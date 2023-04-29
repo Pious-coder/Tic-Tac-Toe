@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body{
+    background: url(tic.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    overflow-y: hidden;
+    margin-top: 90px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 3em;
+    color: #f5f5f5;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 35px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 75px;
+    width: 75px;
+    align-items: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: rgb(240, 240, 240);
+}
+
+.btn:disabled{
+    color: black;
+    cursor: no-drop;
+}
+
+.result{
+    text-align: center;
+    color: #f5f5f5;
+    font-size: 2em;
+}
+
+.reset{
+    align-items: center;
+    margin-left: 250px
+}
+
+#reset{
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: indianred;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-size: 24px;
+    margin-top: 10px; 
+    transition: all 0.4s ease-in-out;
+}
+
+#reset:hover{
+    color: white;
+    background-color:black;
+}
+
+.btn.x-symbol{
+    color: blue;
+}
+
+.btn.o-symbol{
+    color: red;
+}
