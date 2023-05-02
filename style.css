@@ -71,7 +71,7 @@ body{
 
 .reset{
     align-items: center;
-    margin-left: 250px
+    margin-left: 450px;
 }
 
 #reset{
@@ -97,4 +97,62 @@ body{
 
 .btn.o-symbol{
     color: red;
+}
+
+.credit{
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.credit span{
+    color: indianred;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+@media (max-width: 780px){
+    body{
+        width: auto;
+    }
+
+    .reset{
+        margin-left: 340px;
+    }
+}
+
+@media (max-width: 750px){
+    body{
+        width: auto;
+    }
+
+    .reset{
+        margin-left: 300px;
+    }
+}
+
+@media (max-width: 680px){
+    body{
+        width: auto;
+    }
+
+    .reset{
+        margin-left: 250px;
+    }
+}
+
+@media (max-width 560px){
+    body{
+        width: auto;
+    }
+
+    .reset{
+        margin-left: 150px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width 540px){
+    .reset{
+        margin-left: 50px;
+    }
 }
