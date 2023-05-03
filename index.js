@@ -34,7 +34,7 @@ element.classList.add(currentPlayer === 'X' ? 'x-symbol' : 'o-symbol');
     }
 
     if (isTie) {
-        result.innerHTML = "It's a tie! ";
+        result.innerHTML = "It's a tie! 😔";
         btns.forEach((btn) => btn.disabled = true);
     } else {
         for (let i = 0; i < conditions.length; i++) {
@@ -48,7 +48,7 @@ element.classList.add(currentPlayer === 'X' ? 'x-symbol' : 'o-symbol');
             }
 
             if ((a == b) && (b ==c)) {
-                result.innerHTML = `Player ${a} Won 勞`;
+                result.innerHTML = `Player ${a} Won 🎗️`;
                 btns.forEach((btn) => btn.disabled = true);
             }
         }
