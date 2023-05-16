@@ -48,7 +48,7 @@ element.classList.add(currentPlayer === 'X' ? 'x-symbol' : 'o-symbol');
             }
 
             if ((a == b) && (b ==c)) {
-                result.innerHTML = `Player ${a} Won 🎗️`;
+                result.innerHTML = `Player ${a} Won 🏆🎖️`;
                 btns.forEach((btn) => btn.disabled = true);
             }
         }
